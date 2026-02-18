@@ -25,7 +25,7 @@ Open PowerShell:
 Run the following command in PowerShell to download and execute the activation script:
 
 ```powershell
-irm https://raw.githubusercontent.com/its-anya/IDM-Activator/refs/heads/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/iemabdullah/IDM-Activator/refs/heads/main/install.ps1 | iex
 ```
 
 #### Troubleshooting Execution Policy Errors
@@ -40,23 +40,23 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 When prompted, type "A" for "Yes to All", then re-run the script:
 
 ```powershell
-irm https://raw.githubusercontent.com/its-anya/IDM-Activator/main/IDM_Activator.cmd | iex
+irm https://raw.githubusercontent.com/iemabdullah/IDM-Activator/main/IDM_Activator.cmd | iex
 ```
 
 
 ### Method 2: Manual Download
 
-1. Download: Obtain the latest version of the tool from the [releases page](https://github.com/its-anya/IDM-Activator/releases/)
-2. Alternative direct link: [IDM_Activator.cmd](https://raw.githubusercontent.com/its-anya/IDM-Activator/refs/heads/main/IDM_Activator.cmd)
+1. Download: Obtain the latest version of the tool from the [releases page](https://github.com/iemabdullah/IDM-Activator/releases/)
+2. Alternative direct link: [IDM_Activator.cmd](https://raw.githubusercontent.com/iemabdullah/IDM-Activator/refs/heads/main/IDM_Activator.cmd)
 
 ### Method 3: Using Launcher Script
 
-1. Download the [IASL.cmd](https://raw.githubusercontent.com/its-anya/IDM-Activator/refs/heads/main/IASL.cmd) launcher script
+1. Download the [IASL.cmd](https://raw.githubusercontent.com/iemabdullah/IDM-Activator/refs/heads/main/IASL.cmd) launcher script
 2. Right-click on the downloaded file and select "Run as administrator"
 
 ### Method 4: PowerShell Installation Script
 
-1. Download the [install.ps1](https://raw.githubusercontent.com/its-anya/IDM-Activator/main/install.ps1) script
+1. Download the [install.ps1](https://raw.githubusercontent.com/iemabdullah/IDM-Activator/main/install.ps1) script
 2. Right-click on the downloaded file and select "Run with PowerShell"
 3. If prompted by User Account Control (UAC), click Yes
 
@@ -262,5 +262,6 @@ Based on open-source activation techniques developed by the community.
 
 
 We are Open Source Community
+
 
 
