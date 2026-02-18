@@ -12,14 +12,14 @@ Open PowerShell:
 
 Run the following command in PowerShell to download and execute the activation script:
 ```powershell
-irm https://raw.githubusercontent.com/its-anya/IDM-Activator/main/IDM_Activator.cmd | iex
+irm https://raw.githubusercontent.com/iemabdullah/IDM-Activator/main/IDM_Activator.cmd | iex
 ```
 
 #### Method 2: PowerShell Installation Script
 
 Download and run the installation script:
 
-1. Download the [install.ps1](https://raw.githubusercontent.com/its-anya/IDM-Activator/main/install.ps1) script
+1. Download the [install.ps1](https://raw.githubusercontent.com/iemabdullah/IDM-Activator/main/install.ps1) script
 2. Right-click on the downloaded file and select "Run with PowerShell"
 3. If prompted by User Account Control (UAC), click Yes
 
@@ -43,12 +43,12 @@ powershell -ExecutionPolicy Bypass -File install.ps1
 
 #### Method 3: Manual Download
 
-1. Download: Obtain the latest version of the tool from the [releases page](https://github.com/its-anya/IDM-Activator/releases/)
-2. Alternative direct link: [IDM_Activator.cmd](https://raw.githubusercontent.com/its-anya/IDM-Activator/refs/heads/main/IDM_Activator.cmd)
+1. Download: Obtain the latest version of the tool from the [releases page](https://github.com/iemabdullah/IDM-Activator/releases/)
+2. Alternative direct link: [IDM_Activator.cmd](https://raw.githubusercontent.com/iemabdullah/IDM-Activator/refs/heads/main/IDM_Activator.cmd)
 
 #### Method 4: Using Launcher Script
 
-1. Download the [IASL.cmd](https://raw.githubusercontent.com/its-anya/IDM-Activator/main/IASL.cmd) launcher script
+1. Download the [IASL.cmd](https://raw.githubusercontent.com/iemabdullah/IDM-Activator/main/IASL.cmd) launcher script
 2. Right-click on the downloaded file and select "Run as administrator"
 
 ### Prerequisites
@@ -258,5 +258,6 @@ A: Possibly. IDM updates may detect and remove the registry modifications. You m
 A: Technically yes, but this would violate IDM's licensing terms.
 
 ## Support
+
 
 For issues with the script itself, you can refer to the technical documentation. For issues with IDM, contact IDM support directly.
