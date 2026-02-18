@@ -1,10 +1,10 @@
-# Check the instructions here on how to use it https://github.com/its-anya/IDM-Activator
+# Check the instructions here on how to use it https://github.com/iemabdullah/IDM-Activator
 
 # Define multiple URLs (in order)
 $urls = @(
-    "https://raw.githubusercontent.com/its-anya/IDM-Activator/main/IDM_Activator.cmd",
-    "https://github.com/its-anya/IDM-Activator/releases/download/latest/IDM-Activator-main.zip",
-    "https://codeload.github.com/its-anya/IDM-Activator/zip/refs/heads/main"
+    "https://raw.githubusercontent.com/iemabdullah/IDM-Activator/main/IDM_Activator.cmd",
+    "https://github.com/iemabdullah/IDM-Activator/releases/download/latest/IDM-Activator-main.zip",
+    "https://codeload.github.com/iemabdullah/IDM-Activator/zip/refs/heads/main"
 )
 
 # Define variables
@@ -77,4 +77,5 @@ Write-Host "Cleaning up downloaded files..."
 Remove-Item -Path "$tempDir" -Recurse -Force -ErrorAction SilentlyContinue
 
 Write-Host "All set." -ForegroundColor Green
+
 Write-Host "IDM Activator Script closed successfully." -ForegroundColor Green
